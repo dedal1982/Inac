@@ -1,0 +1,402 @@
+.account {
+  width: 100%;
+  position: relative;
+}
+.account__top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 768px) {
+  .account__top {
+    display: none;
+  }
+}
+.account__wrapper {
+  padding-top: 100px;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+@media screen and (max-width: 768px) {
+  .account__wrapper {
+    padding-top: 65px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__wrapper {
+    padding-top: 40px;
+    padding-bottom: 0;
+    align-items: center;
+    gap: 40px;
+  }
+}
+.account__title {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+@media screen and (max-width: 1440px) {
+  .account__title {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__title {
+    max-width: 280px;
+    width: 100%;
+  }
+}
+.account__disk {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .account__disk {
+    display: none;
+  }
+}
+.account__title h1 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.95px;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1440px) {
+  .account__title h1 {
+    font-size: 60px;
+    line-height: 67px;
+  }
+}
+@media screen and (max-width: 1226px) {
+  .account__title h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__title h1 {
+    font-size: 34px;
+    line-height: 41.41px;
+  }
+}
+.account__title h1 span {
+  background: linear-gradient(86.81deg, #027fe9 40.67%, #3bdce8 100.4%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.account__inner {
+  max-width: 900px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(32, 22, 90, 0.7) 0%,
+    rgba(7, 60, 128, 0.7) 100%
+  );
+  margin-left: 63px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+@media screen and (max-width: 1050px) {
+  .account__inner {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__inner {
+    background: transparent;
+    padding: 0;
+  }
+}
+.account__inner-title {
+  display: flex;
+  gap: 13px;
+}
+.account__inner-disk {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-top: 15px;
+}
+@media screen and (max-width: 767px) {
+  .account__inner-disk {
+    display: none;
+  }
+}
+.account__inner-title h2 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.72px;
+  color: #fff;
+  text-transform: uppercase;
+  max-width: 490px;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 1240px) {
+  .account__inner-title h2 {
+    font-size: 45px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__inner-title h2 {
+    font-size: 24px;
+    line-height: 29.23px;
+    max-width: 310px;
+  }
+}
+.account__grid {
+  max-width: 772px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  gap: 4px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+  .account__grid {
+    max-width: 680px;
+    gap: 15px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__grid {
+    max-width: 266px;
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
+}
+.account__item {
+  width: 100%;
+  height: 260px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #007bff 0%, #20175b 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 960px) {
+  .account__item {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__item {
+    width: 123px;
+    height: 155px;
+    padding: 0 0 10px 0;
+    align-items: center;
+  }
+}
+.account__image {
+  width: 100%;
+  height: 128.44px;
+  border-radius: inherit;
+  background: #ffffff;
+}
+@media screen and (max-width: 960px) {
+  .account__image {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__image {
+    height: 70px;
+  }
+}
+.account__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.account__item h3 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28.01px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+@media screen and (max-width: 960px) {
+  .account__item h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__item h3 {
+    font-size: 14px;
+    line-height: 17.05px;
+    text-align: center;
+  }
+}
+.account__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #ffffff;
+  margin-top: 28px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .account__price {
+    border-top: 0;
+    margin-top: auto;
+  }
+}
+.account__amount {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .account__amount {
+    display: none;
+  }
+}
+.account__buy {
+  width: 87.69px;
+  height: 26.47px;
+  border-radius: 4px;
+  background: #0165d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20.71px;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .account__buy {
+    font-size: 13px;
+    line-height: 15.83px;
+    border-radius: 5px;
+  }
+}
+/*account__swiper*/
+.account__swiper {
+  max-width: 772px;
+  width: 100%;
+  margin-top: 24px;
+}
+@media screen and (max-width: 767px) {
+  .account__swiper {
+    max-width: 375px;
+  }
+}
+.account__button-next {
+  width: 60px;
+  height: 160px;
+  border-radius: 0 15px 15px 0;
+  background: #0165d1e5;
+  right: -60px;
+}
+@media screen and (max-width: 1050px) {
+  .account__button-next {
+    background: transparent;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__button-next {
+    right: 0;
+  }
+}
+.account__button-prev {
+  width: 60px;
+  height: 160px;
+  border-radius: 15px 0 0 15px;
+  background: #0165d1e5;
+  left: -60px;
+}
+@media screen and (max-width: 1050px) {
+  .account__button-prev {
+    background: transparent;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__button-prev {
+    left: 0;
+  }
+}
+.account__button-next::after {
+  content: url(../icons/account-arrow.svg);
+}
+.account__button-prev::after {
+  content: url(../icons/account-arrow.svg);
+  transform: rotate(180deg);
+}
+.account-pubg {
+  background: url(../images/fonpubg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .account-pubg {
+    background: url(../images/fonpubg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.account-warface {
+  background: url(../images/fonwarface.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .account-warface {
+    background: url(../images/fonwarface-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+}
+.account-cs {
+  background: url(../images/foncs2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .account-cs {
+    background: url(../images/foncs2-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+}
