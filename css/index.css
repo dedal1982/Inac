@@ -439,7 +439,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .promo__text p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 12.18px;
     text-align: center;
     max-width: 236px;
