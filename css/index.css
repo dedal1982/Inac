@@ -92,7 +92,7 @@ button {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -118,7 +118,7 @@ button {
     padding-left: 17px;
     padding-right: 25px;
     box-sizing: border-box;
-    font-family: "Proxima Nova Condensed", sans-serif;
+    font-family: "Proxima Nova", sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 30.45px;
@@ -207,7 +207,7 @@ button {
   }
 }
 .logo-item span {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 18.27px;
@@ -242,7 +242,7 @@ button {
   display: flex;
   align-items: flex-start;
   gap: 7px;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 36px;
@@ -388,7 +388,7 @@ button {
   }
 }
 .promo__text h1 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 73px;
   line-height: 87.7px;
@@ -503,7 +503,7 @@ button {
   }
 }
 .offers__inner h2 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 70px;
   line-height: 85.26px;
@@ -644,7 +644,7 @@ button {
   }
 }
 .offers__item p {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24.36px;
@@ -765,7 +765,7 @@ button {
   }
 }
 .in-demand__title h2 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 60.9px;
@@ -849,7 +849,7 @@ button {
   }
 }
 .in-demand__text h3 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 35px;
   line-height: 42.63px;
@@ -889,7 +889,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36.54px;
@@ -988,7 +988,7 @@ button {
   display: none;
   flex-direction: column;
   align-items: center;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 60.9px;
@@ -1027,7 +1027,7 @@ button {
 }
 .in-demand__back.active {
   display: block;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 60.9px;
@@ -1145,7 +1145,7 @@ button {
   }
 }
 .in-demand__purchase-title h2 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 60.9px;
@@ -1172,7 +1172,7 @@ button {
   color: transparent;
 }
 .in-demand__purchase-text h3 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 48.72px;
@@ -1251,7 +1251,7 @@ button {
   }
 }
 .in-demand__purchase-item p {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-style: italic;
   font-size: 25px;
@@ -1272,7 +1272,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 900;
   font-size: 35px;
   line-height: 42.63px;
@@ -1361,7 +1361,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31.67px;
@@ -1467,7 +1467,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 70px auto 50px;
-    font-family: "Proxima Nova Condensed", sans-serif;
+    font-family: "Proxima Nova", sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height: 8px;
@@ -1490,7 +1490,7 @@ button {
   }
 }
 .footer__links li h4 {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 29.23px;
@@ -1509,7 +1509,7 @@ button {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 25px;
@@ -1594,7 +1594,7 @@ button {
   border: 4px solid #ffffff42;
   border-bottom: none;
   margin: 0 auto;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 33px;
@@ -1719,7 +1719,7 @@ button {
   gap: 30px;
 }
 .mobile-menu__links li a {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 38px;
