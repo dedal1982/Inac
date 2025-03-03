@@ -1019,9 +1019,6 @@ button {
     margin-top: 30px;
   }
 }
-.in-demand__more.active {
-  display: none;
-}
 .in-demand__back {
   display: none;
 }

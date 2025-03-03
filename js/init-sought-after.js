@@ -11,6 +11,10 @@ const initSoughtAfter = [
     image: "../images/warfacebezss.png",
     name: "Аккаунты для ГАЧИ-МУЧИ",
   },
+  {
+    image: "../images/warfacebezss.png",
+    name: "Аккаунты для ГАЧИ-МУЧИ",
+  },
 ];
 
 //инициализация карточек каталог
@@ -44,7 +48,7 @@ initSoughtAfter.forEach(function (item) {
 const moreButton = document.querySelector(".in-demand__more");
 
 if (initSoughtAfter.length > 3) {
-  console.log(111);
+  moreButton.classList.add("active");
 } else {
-  console.log(222);
+  moreButton.classList.remove("active");
 }
