@@ -1,18 +1,18 @@
 const initSoughtAfter = [
   {
-    image: "../images/warfacebezss.png",
+    image: "../../images/warfacebezss.png",
     name: "Аккаунты для warface",
   },
   {
-    image: "../images/warfacebezss.png",
+    image: "../../images/warfacebezss.png",
     name: "Аккаунты для ПОРНОХАБ",
   },
   {
-    image: "../images/warfacebezss.png",
+    image: "../../images/warfacebezss.png",
     name: "Аккаунты для ГАЧИ-МУЧИ",
   },
   {
-    image: "../images/warfacebezss.png",
+    image: "../../images/warfacebezss.png",
     name: "Аккаунты для ГАЧИ-МУЧИ",
   },
 ];
