@@ -1,4 +1,65 @@
-@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+@font-face {
+  font-family: "Proxima Nova Black";
+  src: url("proximanova_black.otf") format("opentype"),
+    url("proximanova_black.ttf") format("truetype"); /* Добавлено ttf для совместимости */
+  font-weight: 900; /* Или другое значение, соответствующее Black */
+  font-style: normal;
+  font-display: swap; /* Оптимизация загрузки шрифта */
+}
+
+/* Proxima Nova Black Italic */
+@font-face {
+  font-family: "Proxima Nova Black"; /* Использовать Black для italic */
+  src: url("proximanova_blackit.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Proxima Nova Bold */
+@font-face {
+  font-family: "Proxima Nova"; /* Общее семейство */
+  src: url("proximanova_bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Proxima Nova Bold Italic */
+@font-face {
+  font-family: "Proxima Nova"; /* Общее семейство */
+  src: url("../fonts/proximanova_boldit.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Proxima Nova Extra Bold */
+@font-face {
+  font-family: "Proxima Nova"; /* Общее семейство */
+  src: url("../fonts/proximanova_extrabold.otf") format("opentype");
+  font-weight: 800; /* Или другое значение, соответствующее ExtraBold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Proxima Nova Light */
+@font-face {
+  font-family: "Proxima Nova"; /* Общее семейство */
+  src: url("../fonts/proximanova_light.otf") format("opentype");
+  font-weight: 300; /* Значение, соответствующее Light */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Proxima Nova Regular */
+@font-face {
+  font-family: "Proxima Nova"; /* Общее семейство */
+  src: url("../fonts/proximanova_regular.ttf") format("truetype"); /* Используем ttf */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
