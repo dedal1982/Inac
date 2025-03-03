@@ -17,13 +17,13 @@
 }
 
 /* Proxima Nova Bold */
-/* @font-face {
-  font-family: "Proxima Nova"; 
-  src: url("proximanova_bold.otf") format("opentype");
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova_bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 /* Proxima Nova Bold Italic */
 @font-face {
@@ -877,7 +877,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .pre__item h3 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17.05px;
   }
 }
@@ -921,6 +921,9 @@ button {
   gap: 26px;
   margin: 0 auto;
 }
+.in-demand__grid-pre.in-demand__grid-pre-full {
+  max-height: fit-content;
+}
 @media screen and (max-width: 1160px) {
   .in-demand__grid-pre {
     max-width: 960px;
@@ -935,6 +938,7 @@ button {
   .in-demand__grid-pre {
     position: relative;
     max-width: 350px;
+    max-height: 150px;
     justify-content: space-between;
   }
 }
@@ -1033,23 +1037,22 @@ button {
   line-height: 60.9px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 115px;
 }
 @media screen and (max-width: 1024px) {
   .in-demand__back.active {
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 @media screen and (max-width: 767px) {
   .in-demand__back.active {
     font-size: 16px;
     line-height: 19.49px;
+    margin-top: 30px;
   }
-}
-.in-demand__grid-pre.active {
-  display: none;
 }
 
 @media screen and (max-width: 767px) {

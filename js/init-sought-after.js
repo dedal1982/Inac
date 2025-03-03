@@ -47,9 +47,26 @@ initSoughtAfter.forEach(function (item) {
 
 const moreButton = document.querySelector(".in-demand__more");
 const backButton = document.querySelector(".in-demand__back");
+const pageGrid = document.querySelector(".in-demand__grid-pre");
+const pageGridFull = document.querySelector(".in-demand__grid-pre-full");
 
 if (initSoughtAfter.length > 3) {
   moreButton.classList.add("active");
 } else {
   moreButton.classList.remove("active");
+}
+
+if (moreButton) {
+  moreButton.addEventListener("click", () => {
+    pageGrid.classList.add("in-demand__grid-pre-full");
+    backButton.classList.add("active");
+    moreButton.classList.remove("active");
+  });
+}
+if (backButton) {
+  backButton.addEventListener("click", () => {
+    pageGrid.classList.remove("in-demand__grid-pre-full");
+    backButton.classList.remove("active");
+    moreButton.classList.add("active");
+  });
 }
