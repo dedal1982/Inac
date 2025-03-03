@@ -46,6 +46,7 @@ initSoughtAfter.forEach(function (item) {
 });
 
 const moreButton = document.querySelector(".in-demand__more");
+const backButton = document.querySelector(".in-demand__back");
 
 if (initSoughtAfter.length > 3) {
   moreButton.classList.add("active");

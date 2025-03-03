@@ -17,13 +17,13 @@
 }
 
 /* Proxima Nova Bold */
-@font-face {
-  font-family: "Proxima Nova"; /* Общее семейство */
+/* @font-face {
+  font-family: "Proxima Nova"; 
   src: url("proximanova_bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 /* Proxima Nova Bold Italic */
 @font-face {
@@ -914,7 +914,10 @@ button {
 .in-demand__grid-pre {
   max-width: 1120px;
   width: 100%;
+  max-height: 450px;
+  overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
   gap: 26px;
   margin: 0 auto;
 }
