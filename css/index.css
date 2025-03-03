@@ -186,7 +186,6 @@ button {
   }
 }
 .logo-main {
-  margin-left: 300px;
   width: 170.04px;
   height: 70.45px;
 }
@@ -1039,6 +1038,7 @@ button {
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 115px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   .in-demand__back.active {
