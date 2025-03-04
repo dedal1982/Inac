@@ -49,15 +49,15 @@ const pageGridFull = document.querySelector(".in-demand__grid-pre-full");
 const initSoughtAfterFull = [
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для warface",
+    name: "aaaaaaa",
   },
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для ПОРНОХАБ",
+    name: "sssssss",
   },
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для ГАЧИ-МУЧИ",
+    name: "dddddd",
   },
 ];
 
