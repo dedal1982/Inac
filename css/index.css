@@ -922,8 +922,24 @@ button {
   display: none;
 }
 .ac-elements-full.active {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
   margin-top: 25px;
+  position: static;
+}
+.ac-elements-full .pre__item {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .ac-elements-full.active {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    gap: 5px;
+  }
+}
+.ac-elements-full .pre__item:nth-of-type(2) {
+  position: inherit;
+  transform: none;
 }
 .in-demand__grid-pre.in-demand__grid-pre-full {
   margin-bottom: 0;
@@ -976,11 +992,11 @@ button {
   object-fit: cover;
   border-radius: inherit;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .pre__image {
     height: 69px;
   }
-}
+} */
 .pre__button {
   width: 100%;
   height: 78.41px;
