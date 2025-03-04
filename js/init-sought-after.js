@@ -1,17 +1,17 @@
 const initSoughtAfter = [
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для warface",
+    name: "Аккаунты для CSGO",
     link: "account-cs.html",
   },
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для ПОРНОХАБ",
+    name: "Аккаунты для PUBG",
     link: "account-pubg.html",
   },
   {
     image: "../../images/warfacebezss.png",
-    name: "Аккаунты для ГАЧИ-МУЧИ",
+    name: "Аккаунты для WARFACE",
     link: "account-warface.html",
   },
 ];
@@ -57,18 +57,22 @@ const initSoughtAfterFull = [
   {
     image: "../../images/warfacebezss.png",
     name: "1",
+    link: ".........",
   },
   {
     image: "../../images/warfacebezss.png",
     name: "2",
+    link: ".........",
   },
   {
     image: "../../images/warfacebezss.png",
     name: "3",
+    link: ".........",
   },
   {
     image: "../../images/warfacebezss.png",
     name: "3",
+    link: ".........",
   },
 ];
 
