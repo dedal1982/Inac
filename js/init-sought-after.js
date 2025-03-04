@@ -44,22 +44,6 @@ initSoughtAfter.forEach(function (item) {
 const moreButton = document.querySelector(".in-demand__more");
 const backButton = document.querySelector(".in-demand__back");
 const pageGrid = document.querySelector(".in-demand__grid-pre");
-const pageGridFull = document.querySelector(".in-demand__grid-pre-full");
-
-const initSoughtAfterFull = [
-  {
-    image: "../../images/warfacebezss.png",
-    name: "aaaaaaa",
-  },
-  {
-    image: "../../images/warfacebezss.png",
-    name: "sssssss",
-  },
-  {
-    image: "../../images/warfacebezss.png",
-    name: "dddddd",
-  },
-];
 
 if (initSoughtAfterFull.length > 0) {
   moreButton.classList.add("active");
