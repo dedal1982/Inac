@@ -152,7 +152,7 @@
   line-height: 48.72px;
   color: #fff;
   text-transform: uppercase;
-  max-width: 490px;
+  max-width: 520px;
   width: 100%;
   text-align: center;
 }
@@ -174,8 +174,8 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 1fr));
-  gap: 4px;
-  margin: 0 auto;
+  gap: 10px;
+  margin: 25px auto 0;
 }
 @media screen and (max-width: 960px) {
   .account__grid {

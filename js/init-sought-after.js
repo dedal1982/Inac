@@ -2,14 +2,17 @@ const initSoughtAfter = [
   {
     image: "../../images/warfacebezss.png",
     name: "Аккаунты для warface",
+    link: "account-cs.html",
   },
   {
     image: "../../images/warfacebezss.png",
     name: "Аккаунты для ПОРНОХАБ",
+    link: "account-pubg.html",
   },
   {
     image: "../../images/warfacebezss.png",
     name: "Аккаунты для ГАЧИ-МУЧИ",
+    link: "account-warface.html",
   },
 ];
 
@@ -22,6 +25,7 @@ function createCard(item) {
   const htmlElement = itemTemplate.cloneNode(true);
   const acImage = htmlElement.querySelector(".pre__image");
   const acName = htmlElement.querySelector(".in-demand__text h3");
+  const acLink = htmlElement.querySelector(".pre__button");
 
   // Проверяем наличие значения поля в объекте item перед присваиванием его элементу
 
@@ -30,6 +34,9 @@ function createCard(item) {
   }
   if (item.name) {
     acName.textContent = item.name;
+  }
+  if (item.link) {
+    acLink.href = item.link;
   }
   setEventListeners(htmlElement);
 
