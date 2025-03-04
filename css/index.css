@@ -918,6 +918,13 @@ button {
   gap: 26px;
   margin: 0 auto 20px;
 }
+.ac-elements-full {
+  display: none;
+}
+.ac-elements-full.active {
+  display: flex;
+  margin-top: 25px;
+}
 .in-demand__grid-pre.in-demand__grid-pre-full {
   margin-bottom: 0;
 }
@@ -935,7 +942,6 @@ button {
   .in-demand__grid-pre {
     position: relative;
     max-width: 350px;
-    max-height: 150px;
     justify-content: space-between;
   }
 }
