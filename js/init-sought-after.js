@@ -11,10 +11,6 @@ const initSoughtAfter = [
     image: "../../images/warfacebezss.png",
     name: "Аккаунты для ГАЧИ-МУЧИ",
   },
-  {
-    image: "../../images/warfacebezss.png",
-    name: "Аккаунты для ГАЧИ-МУЧИ",
-  },
 ];
 
 //инициализация карточек каталог
@@ -50,7 +46,22 @@ const backButton = document.querySelector(".in-demand__back");
 const pageGrid = document.querySelector(".in-demand__grid-pre");
 const pageGridFull = document.querySelector(".in-demand__grid-pre-full");
 
-if (initSoughtAfter.length > 3) {
+const initSoughtAfterFull = [
+  {
+    image: "../../images/warfacebezss.png",
+    name: "Аккаунты для warface",
+  },
+  {
+    image: "../../images/warfacebezss.png",
+    name: "Аккаунты для ПОРНОХАБ",
+  },
+  {
+    image: "../../images/warfacebezss.png",
+    name: "Аккаунты для ГАЧИ-МУЧИ",
+  },
+];
+
+if (initSoughtAfterFull.length > 0) {
   moreButton.classList.add("active");
 } else {
   moreButton.classList.remove("active");
