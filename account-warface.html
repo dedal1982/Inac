@@ -3,6 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--meta-->
+    <meta name="description" content="Игровой магазин для аккаунтов STEAM" />
+    <meta
+      name="keywords"
+      content="Вы можете выбрать аккаунты для различных онлайн-игр и стать их единоличным обладателем. Наш магазин STEALTECH поможет вам повысить уровень мастерства в выбранных играх, обеспечивая реалистичный и увлекательный игровой процесс."
+    />
+    <meta name="author" content="INSIDE-SOFT»" />
+    <meta
+      name="copyright"
+      content="© 2025 «INSIDE-SOFT». Все права защищены."
+    />
+    <meta name="robots, follow" content="index" />
+    <meta property="og:title" content="Игровой магазин для аккаунтов STEAM" />
+    <meta
+      property="og:description"
+      content="Игровой магазин для аккаунтов STEAM.Вы можете выбрать аккаунты для различных онлайн-игр и стать их единоличным обладателем. Наш магазин STEALTECH поможет вам повысить уровень мастерства в выбранных играх, обеспечивая реалистичный и увлекательный игровой процесс."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="./images/banner.jpg" />
+    <meta
+      property="og:image:alt"
+      content="Игровой магазин для аккаунтов STEAM"
+    />
+    <meta property="og:url" content="https://stealth-tech.ru/" />
+    <!--meta-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -256,5 +281,40 @@
     </div>
     <script src="./js/index.js"></script>
     <script src="./accounts/account-warface.js"></script>
+    <!--ЧАТ-->
+    <script id="chatBroEmbedCode">
+      /* Chatbro Widget Embed Code Start */ function ChatbroLoader(
+        chats,
+        async
+      ) {
+        async = !1 !== async;
+        var params = {
+            embedChatsParameters: chats instanceof Array ? chats : [chats],
+            lang: navigator.language || navigator.userLanguage,
+            needLoadCode: "undefined" == typeof Chatbro,
+            embedParamsVersion: localStorage.embedParamsVersion,
+            chatbroScriptVersion: localStorage.chatbroScriptVersion,
+          },
+          xhr = new XMLHttpRequest();
+        (xhr.withCredentials = !0),
+          (xhr.onload = function () {
+            eval(xhr.responseText);
+          }),
+          (xhr.onerror = function () {
+            console.error("Chatbro loading error");
+          }),
+          xhr.open(
+            "GET",
+            "https://www.chatbro.com/embed.js?" +
+              btoa(unescape(encodeURIComponent(JSON.stringify(params)))),
+            async
+          ),
+          xhr.send();
+      }
+      /* Chatbro Widget Embed Code End */ ChatbroLoader({
+        encodedChatId: "191jW",
+      });
+    </script>
+    <!--ЧАТ-->
   </body>
 </html>
